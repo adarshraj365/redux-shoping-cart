@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  background-color: #f1f5f8;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #2680c0;
+  padding: 15px 0;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  align-items: center;
+}
+
+.navbar .icon {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.navbar .icon:hover {
+  cursor: pointer;
+}
+
+.count {
+  position: absolute;
+  top: -20px;
+  left: 75%;
+  font-size: 30px;
+  color: #fff;
+  background-color: rgb(12, 195, 195);
+  border-radius: 50%;
+  padding: 5px 5px;
+}
+
+.title {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 20px;
+  padding: 10px;
+  width: fit-content;
+  transition: 0.2s;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.title:hover {
+  border-bottom: 5px solid #2680c0;
+}
+
+.item-wrapper {
+  display: grid;
+  margin-top: 50px;
+  grid-template-columns: auto 1fr auto;
+  grid-gap: 50px;
+  /* align-items: center; */
+}
+
+.item-wrapper .first {
+  width: 120px;
+}
+
+.item-wrapper .first img {
+  width: 100%;
+  height: 100%;
+}
+
+.item-wrapper .second {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.item-wrapper .third {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.item-wrapper .third i {
+  color: #2680c0;
+}
+
+.second .item-name {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.second .item-price {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.507);
+}
+
+.second .remove-btn {
+  font-size: 25px;
+  letter-spacing: 4px;
+  color: rgb(0, 38, 255);
+}
+
+.second .remove-btn:hover {
+  cursor: pointer;
+  color: #2680c0;
+}
+
+.bottom-section {
+  margin-top: 100px;
+}
+
+.bottom-section .total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.clear-cart {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-top: 100px;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  border: solid 5px #2680c0;
+  padding: 10px 0;
+  font-weight: 600;
+}
+
+.clear-cart:hover {
+  cursor: pointer;
+  color: #2680c0;
+}
