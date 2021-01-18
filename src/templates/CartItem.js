@@ -16,9 +16,9 @@ function CartItem({ item, remove, increase, decrease }) {
         </a>
       </div>
       <div className="third">
-        <i onClick={() => increase()} class="fas fa-chevron-up"></i>
+        <i onClick={() => increase()} className="fas fa-chevron-up"></i>
         <h3>{item.amount}</h3>
-        <i onClick={() => decrease()} class="fas fa-chevron-down"></i>
+        <i onClick={() => decrease()} className="fas fa-chevron-down"></i>
       </div>
     </div>
   );

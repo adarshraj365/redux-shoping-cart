@@ -7,7 +7,7 @@ function Cart({ cartItem, total, dispatch }) {
   return (
     <div className="container">
       {cartItem.map((item) => (
-        <CartItem item={item} />
+        <CartItem item={item} key={item.id} />
       ))}
       <div className="bottom-section">
         <hr />

@@ -8,7 +8,7 @@ function Navbar({ item_count }) {
         <div className="navbar">
           <h2>Shopify</h2>
           <div className="icon">
-            <i class="fas fa-shopping-cart"></i>
+            <i className="fas fa-shopping-cart"></i>
             <h2 className="count">{item_count}</h2>
           </div>
         </div>
